@@ -1,7 +1,7 @@
 # F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting
  
 Here, we will explain how to use our codes.
-Our codes is divided into two parts, one for synthetic-nerf dataset and other for Tanks&Temples dataset.
+Our codes are divided into two parts, one for synthetic-nerf dataset and other for Tanks&Temples dataset.
 
 
 ## We use the same environment as original 3DGS, please follow the link of 3D-GS to install all packages
