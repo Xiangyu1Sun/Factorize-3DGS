@@ -1,4 +1,11 @@
 # F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting
+### Xiangyu Sun, Joo Chan Lee, Daniel Rho, Jong Hwan Ko, Usman Ali and Eunbyung Park
+
+### [[Project Page](https://xiangyu1sun.github.io/Factorize-3DGS/)] [[Paper(arxiv)](https://arxiv.org/]
+
+Our code is based on [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting).
+
+## Training
  
 Here, we will explain how to use our codes.
 Our codes are divided into two parts, one for synthetic-nerf dataset and other for Tanks&Temples dataset.
