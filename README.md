@@ -9,7 +9,7 @@ Our code is based on [3D Gaussian Splatting](https://github.com/graphdeco-inria/
 
 For installation, we use the same environment as 3D Gaussian Splatting.
 
-We use the same environment as original 3DGS, please follow the link of 3D-GS to install all packages
+We use the same environment as original 3DGS, please follow the link of 3D-GS to install all packages.
 
 https://github.com/graphdeco-inria/gaussian-splatting
 
