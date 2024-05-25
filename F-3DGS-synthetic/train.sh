@@ -1,0 +1,8 @@
+CUDA_VISIBLE_DEVICES=2 python train.py -s /workspace/datasets/nerf_synthetic/chair      --eval --hist_path /workspace/gaussian-ori/gaussian-splatting/exp/chair/point_cloud/iteration_30000/point_cloud.ply     -m exp/chair
+CUDA_VISIBLE_DEVICES=2 python train.py -s /workspace/datasets/nerf_synthetic/drums      --eval --hist_path /workspace/gaussian-ori/gaussian-splatting/exp/drums/point_cloud/iteration_30000/point_cloud.ply     -m exp/drums
+CUDA_VISIBLE_DEVICES=2 python train.py -s /workspace/datasets/nerf_synthetic/ficus      --eval --hist_path /workspace/gaussian-ori/gaussian-splatting/exp/ficus/point_cloud/iteration_30000/point_cloud.ply     -m exp/ficus
+CUDA_VISIBLE_DEVICES=2 python train.py -s /workspace/datasets/nerf_synthetic/hotdog     --eval --hist_path /workspace/gaussian-ori/gaussian-splatting/exp/hotdog/point_cloud/iteration_30000/point_cloud.ply    -m exp/hotdog
+CUDA_VISIBLE_DEVICES=2 python train.py -s /workspace/datasets/nerf_synthetic/lego       --eval --hist_path /workspace/gaussian-ori/gaussian-splatting/exp/lego/point_cloud/iteration_30000/point_cloud.ply      -m exp/lego
+CUDA_VISIBLE_DEVICES=2 python train.py -s /workspace/datasets/nerf_synthetic/materials  --eval --hist_path /workspace/gaussian-ori/gaussian-splatting/exp/materials/point_cloud/iteration_30000/point_cloud.ply -m exp/materials
+CUDA_VISIBLE_DEVICES=2 python train.py -s /workspace/datasets/nerf_synthetic/mic        --eval --hist_path /workspace/gaussian-ori/gaussian-splatting/exp/mic/point_cloud/iteration_30000/point_cloud.ply       -m exp/mic
+CUDA_VISIBLE_DEVICES=2 python train.py -s /workspace/datasets/nerf_synthetic/ship       --eval --hist_path /workspace/gaussian-ori/gaussian-splatting/exp/ship/point_cloud/iteration_30000/point_cloud.ply      -m exp/ship
