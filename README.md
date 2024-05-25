@@ -5,19 +5,21 @@
 
 Our code is based on [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting).
 
+## Setup
+
+For installation, we use the same environment as 3D Gaussian Splatting.
+
+We use the same environment as original 3DGS, please follow the link of 3D-GS to install all packages
+
+https://github.com/graphdeco-inria/gaussian-splatting
+
+Thanks for the excellent work in 3D-GS！
+
+
 ## Training
  
 Here, we will explain how to use our codes.
 Our codes are divided into two parts, one for synthetic-nerf dataset and other for Tanks&Temples dataset.
-
-
-## We use the same environment as original 3DGS, please follow the link of 3D-GS to install all packages
-https://github.com/graphdeco-inria/gaussian-splatting
-Thanks for the excellent work in 3D-GS！
-
-## Setup
-
-For installation, we use the same environment as 3D Gaussian Splatting.
 
 ## Pre-processing
 
