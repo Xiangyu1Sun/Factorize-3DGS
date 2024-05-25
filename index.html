@@ -181,11 +181,15 @@
           <h2 class="title is-3">Factorized coordinates in 3DGS</h2>
           <div class="content has-text-justified">
             <img src="./images/factorized_coordinates.png">
-            <p align="justify">Examples of factorized coordinates: (a) 25 normal coordinates, (b) 5 $\times$ 5 factorized coordinates. each $x$ and $y$ axis has 5 points, and both represent 25 (5 $\times$ 5) points. (c) two 5 $\times$ 5 factorized coordinates and a total of 50 points are represented (2 $\times$ 5 $\times$ 5), (d) multi-resolution factorized coordinates, where two factorized coordinates have different resolutions (3 $\times$ 3 and 5 $\times$ 5), represent total 34 points, (e) two 3 $\times$ 3 and one 5 $\times$ 5 factorized coordinates. A total of 43 points are represented. The best-viewed in color.</p>
+            <p align="justify">Examples of factorized coordinates: (a) 25 normal coordinates, (b) 5 &times; 5 factorized coordinates. 
+		    each &x; and &y; axis has 5 points, and both represent 25 (5 &times; 5) points. (c) two 5 &times; 5 factorized 
+		    coordinates and a total of 50 points are represented (2 &times; 5 &times; 5), (d) multi-resolution factorized 
+		    coordinates, where two factorized coordinates have different resolutions (3 &times; 3 and 5 &times; 5), represent total 34 points, 
+		    (e) two 3 &times; 3 and one 5 &times; 5 factorized coordinates. A total of 43 points are represented. The best-viewed in color.</p>
             <img src="./images/architecture.jpg">
-            <p align="justify">Since we predict the offsets for each Gaussian, we can selectively enlarge the covariances of Gaussians where the parts in the training images are blurred. This flexibility enables us to
-              effectively implement deblurring capability in 3D-GS. On the other hand, a naive approach to blurring the rendered image is simply to apply a Gaussian kernel which is not capable of handling each part of the image differently but blurs
-              the entire image.</p>
+            <p align="justify">Illustration of factorized coordinates and representations. &p;, &s;, &q;, and &f; denote coordinate, scale, rotation (in quaternion), 
+		    and features for color and opacities, respectively. The lower indices of &s;, &q;, and &f; are the axis and the indices of the feature dimension. 
+		    For element-wise multiplication, we used the &odot; notation.</p>
           </div>
         </div>
       </div>
