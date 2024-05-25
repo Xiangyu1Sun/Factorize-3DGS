@@ -8,12 +8,18 @@ Our codes is divided into two parts, one for synthetic-nerf dataset and other fo
 https://github.com/graphdeco-inria/gaussian-splatting
 Thanks for the excellent work in 3D-GS！
 
+## Setup
 
-## Step 1.  Get hist path of original 3DGS
+For installation, we use the same environment as 3D Gaussian Splatting.
+
+## Pre-processing
+
+### Step 1.  Get hist path of original 3DGS
 
 To use our code, first we need to use original 3DGS code to train each scene and get the .ply file for each scene. The distribution of original Gaussians will be used in next step.
 
-## Step 2. Using the code in train.sh file to train synthetic-nerf and Tanks&Temples dataset
+### Step 2. Using the code in train.sh file to train synthetic-nerf and Tanks&Temples dataset
+
 
 ## Running
 
