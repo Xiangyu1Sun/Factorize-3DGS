@@ -15,14 +15,21 @@ To use our code, first we need to use original 3DGS code to train each scene and
 
 ## Step 2. Using the code in train.sh file to train synthetic-nerf and Tanks&Temples dataset
 
-# In nerf-synthetic dataset
+## Running
+
+### In nerf-synthetic dataset
+
+```shell
 python train.py -s /workspace/datasets/nerf_synthetic/chair -m exp/chair   --eval --hist_path /gaussian-ori/gaussian-splatting/exp/chair/point_cloud/iteration_30000/point_cloud.ply   
 
 -s           the source of dataset
 --hist_path  the path of .ply file trained by original 3DGS
 -m           the output of the model
+```
 
 # Tanks&Temples dataset
+
+```shell
 python train.py -s /workspace/datasets/TanksAndTemple/Barn  -m TanksAndTemple/Barn  --eval -r 2  -w --hist_path /gaussian-ori/gaussian-splatting/TanksAndTemple/Barn/point_cloud/iteration_30000/point_cloud.ply
 
 -s           the source of dataset
@@ -30,3 +37,4 @@ python train.py -s /workspace/datasets/TanksAndTemple/Barn  -m TanksAndTemple/Ba
 -m           the output of the model
 -r           the resolution of images
 -w           the background is white
+```
