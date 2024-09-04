@@ -6,7 +6,7 @@
 Our code is based on [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting).
 
 ## Method Overview
-<img src="https://github.com/Xiangyu1Sun/Factorize-3DGS/tree/page/images/factorized_coordinates.png">
+<img src="https://github.com/Xiangyu1Sun/Factorize-3DGS/blob/page/images/factorized_coordinates.png" />
 
 ## Setup
 
