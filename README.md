@@ -1,4 +1,4 @@
-# F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting
+# F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting (ACM MM 2024)
 ### Xiangyu Sun, Joo Chan Lee, Daniel Rho, Jong Hwan Ko, Usman Ali and Eunbyung Park
 
 ### [[Project Page](https://xiangyu1sun.github.io/Factorize-3DGS/)] [[Paper(arxiv)](https://arxiv.org/abs/2405.17083)]
