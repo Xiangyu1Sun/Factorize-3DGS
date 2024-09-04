@@ -6,7 +6,9 @@
 Our code is based on [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting).
 
 ## Method Overview
+<div style="background-color:white>
 <img src="https://github.com/Xiangyu1Sun/Factorize-3DGS/blob/page/images/factorized_coordinates.png?raw=true" />
+</div>
 <p align="justify">Examples of factorized coordinates: (a) 25 normal coordinates, (b) 5 &times; 5 factorized coordinates. 
 each x and y axis has 5 points, and both represent 25 (5 &times; 5) points. (c) two 5 &times; 5 factorized 
 coordinates and a total of 50 points are represented (2 &times; 5 &times; 5), (d) multi-resolution factorized 
