@@ -64,3 +64,13 @@ the resolution of images
 the background is white
 
 #### Refer to other arguments of [3DGS](https://github.com/graphdeco-inria/gaussian-splatting).
+
+## BibTeX
+```
+@article{sun2024f,
+  title={F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting},
+  author={Sun, Xiangyu and Lee, Joo Chan and Rho, Daniel and Ko, Jong Hwan and Ali, Usman and Park, Eunbyung},
+  journal={arXiv preprint arXiv:2405.17083},
+  year={2024}
+}
+```
