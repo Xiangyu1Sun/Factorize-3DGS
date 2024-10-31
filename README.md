@@ -77,10 +77,21 @@ the background is white
 
 ## BibTeX
 ```
-@article{sun2024f,
-  title={F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting},
-  author={Sun, Xiangyu and Lee, Joo Chan and Rho, Daniel and Ko, Jong Hwan and Ali, Usman and Park, Eunbyung},
-  journal={arXiv preprint arXiv:2405.17083},
-  year={2024}
+@inproceedings{10.1145/3664647.3681116,
+author = {Sun, Xiangyu and Lee, Joo Chan and Rho, Daniel and Ko, Jong Hwan and Ali, Usman and Park, Eunbyung},
+title = {F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting},
+year = {2024},
+isbn = {9798400706868},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3664647.3681116},
+doi = {10.1145/3664647.3681116},
+abstract = {The neural radiance field (NeRF) has made significant strides in representing 3D scenes and synthesizing novel views. Despite its advancements, the high computational costs of NeRF have posed challenges for its deployment in resource-constrained environments and real-time applications. As an alternative to NeRF-like neural rendering methods, 3D Gaussian Splatting (3DGS) offers rapid rendering speeds while maintaining excellent image quality. However, as it represents objects and scenes using a myriad of Gaussians, it requires substantial storage to achieve high-quality representation. To mitigate the storage overhead, we propose Factorized 3D Gaussian Splatting (F-3DGS), a novel approach that drastically reduces storage requirements while preserving image quality. Inspired by classical matrix and tensor factorization techniques, our method represents and approximates dense clusters of Gaussians with significantly fewer Gaussians through efficient factorization. We aim to efficiently represent dense 3D Gaussians by approximating them with a limited amount of information for each axis and their combinations. This method allows us to encode a substantially large number of Gaussians along with their essential attributes'such as color, scale, and rotation-necessary for rendering using a relatively small number of elements. Extensive experimental results demonstrate that F-3DGS achieves a significant reduction in storage costs while maintaining comparable quality in rendered images. Our project page is available at https://xiangyu1sun.github.io/Factorize-3DGS/.},
+booktitle = {Proceedings of the 32nd ACM International Conference on Multimedia},
+pages = {7957–7965},
+numpages = {9},
+keywords = {3d reconstruction, compression, real-time rendering, tensor factorization},
+location = {Melbourne VIC, Australia},
+series = {MM '24}
 }
 ```
